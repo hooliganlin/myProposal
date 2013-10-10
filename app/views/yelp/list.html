@@ -1,0 +1,39 @@
+<div class="titleBar" ng-controller="TitleBarCtrl">
+  <a class="backButton" hm-tap="goBack()">Back</a>
+  <img src="/icons/yelp_logo_75x38.png" alt="" />
+</div>
+<div ng-controller="ListCtrl">
+  <div class="topcoat-list__container">
+    <ul class="list-body topcoat-list">
+      <li class="topcoat-list__item" hm-tap="showDetails(place.place_id)" ng-repeat="place in places">
+        <div class="listing">
+          <div class="main-attributes">
+            <div class="icon">
+              <img class="iconImg" src="{{place.image}}" />
+            </div>
+            <div class="description-body">
+              <h3>
+                <span>{{$index+1}}. </span>
+                <span>{{ place.name }}</span>
+              </h3>
+              <div class="rating-container">
+                <div class="rating" ng-class="getRating(place.rating)"></div>
+                <span class="reviews left">{{ place.reviews }} reviews</span>
+              </div>
+              <div>
+                <div>{{ place.address }}</div>
+                <div>{{ place.category }}</div>    
+              </div>
+            </div>
+          </div>
+          <div class="secondary-attributes">       
+              <span class="distance">{{ place.distance }} mi</span>
+              <span class="price">{{ getPrice(place.price) }}</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+
+</div>

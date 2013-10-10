@@ -1,0 +1,24 @@
+[{
+	"id" : 1,
+	"name": "Eddie H.",
+	"timestamp": "1 day ago",
+	"comment": "Say YES, Jess!!!",
+	"thumbnail": "/icons/ralph_wiggum.gif",
+	"count": 45
+},
+{
+	"id" : 2,
+	"name": "Christina Y.",
+	"timestamp": "1 day ago",
+	"comment": "Say YES to Marriage!!!!",
+	"thumbnail": "/icons/ralph_wiggum.gif",
+	"count": 100
+},
+{
+	"id" : 3,
+	"name": "Jeska Y.",
+	"timestamp": "1 day ago",
+	"comment": "I love you!!!",
+	"thumbnail": "/icons/ralph_wiggum.gif",
+	"count": 10
+}]

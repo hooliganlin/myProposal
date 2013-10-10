@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "image": "/pics/pic1.jpg",
+    "style": "middle",
+    "isThumbnail": false,
+    "comment" : {
+        "text": "Hi Jess. You'll probably wondering why the Yelp app is looking rather strange...Swipe left to see why :P"
+      }
+  },
+  {
+    "id": 2,
+    "image": "/pics/pic1-thumbnail.jpg",
+    "isThumbnail": true
+  },
+  {
+    "id": 3,
+    "image": "/pics/pic2.jpg",
+    "isThumbnail": false,
+    "comment" : {
+      "text": "Ever since I met you, you've brought nothing but joy and excitement in my life.",
+      "style": "top"
+    }
+  },
+  {
+    "id": 4,
+    "image": "/pics/pic3.jpg",
+    "isThumbnail": false,
+    "comment": {
+      "text": "You are such an encouraging, compassionate, challenging, intelligent, and God-loving woman...",
+      "style": "top compact"
+    }
+  },
+  {
+    "id": 5,
+    "image": "/pics/pic4.jpg",
+    "isThumbnail": false,
+    "comment": {
+      "text": "And you know how to bring a smile to my face everyday (especially the days when you buy me donuts :P).",
+      "style": "top"
+    }
+  },
+  {
+    "id": 6,
+    "image": "/pics/pic5.jpg",
+    "isThumbnail": false,
+    "style": "middle",
+    "comment": {
+      "text" : "I know at times we may frustrate or misunderstand each other because of our differences.",
+      "style": "middle"
+    }
+  }, 
+  {
+    "id": 7,
+    "image": "/pics/pic5-thumbnail.jpg",
+    "isThumbnail": true
+  },
+  {
+    "id": 8,
+    "image": "/pics/pic6.jpg",
+    "isThumbnail": false,
+    "style": "middle",
+    "comment": {
+      "text": "And we may not feel as joyful as we could be with each other.",
+      "style": "bottom"
+    }
+  },
+  {
+    "id": 9,
+    "image": "/pics/pic7.jpg",
+    "isThumbnail": false,
+    "comment": {
+      "text": "But I know that just as Jesus graciously loves us, I will always love you.",
+      "style": "top wide"
+    }
+  },
+  {
+    "id": 10,
+    "image": "/pics/pic8.jpg",
+    "isThumbnail": false,
+    "style": "middle",
+    "comment": {
+      "text": "And I will always support you during your highs and lows.",
+      "style": "middle"
+    }
+  },
+  {
+    "id": 11,
+    "image": "/pics/pic8-thumbnail.jpg",
+    "isThumbnail": true
+  }, 
+  {
+    "id": 12,
+    "image": "/pics/pic9.jpg",
+    "isThumbnail": false,
+    "comment": {
+      "text": "There's no one else I'd rather spend the rest of my life with than with you. So Jessica Yen...",
+      "style": "bottom"
+    }
+  },
+  {
+    "id": 12,
+    "image": "/pics/pic-marriage.png",
+    "isThumbnail": false,
+    "style" : "middle"
+  }
+]

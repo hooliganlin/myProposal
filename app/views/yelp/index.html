@@ -1,0 +1,53 @@
+<div class="titleBar home">
+    <img src="/icons/yelp_logo_75x38.png" alt="" />
+</div>
+<div ng-controller="IndexCtrl">
+	<div class="searchContainer">
+		<input id="searchText" type="text" placeholder="Search for..."  ng-keyup="keyUp($event)" />
+	</div>
+
+	<div class="grid">
+		<div class="row">
+	    	<div class="gridItem" hm-tap="showCategory('nearby')">
+	    		<img class="gridIcon" src="/icons/nearby.png" alt=""/>
+	    		<div class="gridText">Nearby</div>
+	    	</div>
+	    	<div class="gridItem" hm-tap="showCategory('about me')">
+				<img class="gridIcon" src="/icons/aboutme.png" alt=""/>
+	    		<div class="gridText">About Me</div>
+	    	</div>
+			<div class="gridItem" hm-tap="showCategory('bookmarks')">
+				<img class="gridIcon" src="/icons/bookmarks.png" alt=""/>
+				<div class="gridText">Bookmarks</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="gridItem" hm-tap="showCategory('monocle')">
+				<img class="gridIcon" src="/icons/monocle.png" alt=""/>
+				<div class="gridText">Monocle</div>
+			</div>
+			<div class="gridItem" hm-tap="showCategory('checkins')">
+				<img class="gridIcon" src="/icons/checkins.png" alt=""/>
+				<div class="gridText">Check-ins</div>
+			</div>
+			<div class="gridItem" hm-tap="showCategory('friends')">
+				<img class="gridIcon" src="/icons/friends.png" alt=""/>
+				<div class="gridText">Friends</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="gridItem" hm-tap="showCategory('talk')">
+				<img class="gridIcon" src="/icons/talk.png" alt=""/>
+				<div class="gridText">Talk</div>
+			</div>
+			<div class="gridItem" hm-tap="showCategory('recent')">
+				<img class="gridIcon" src="/icons/recent.png" alt=""/>
+				<div class="gridText">Recent</div>
+			</div>
+			<div class="gridItem" hm-tap="showCategory('deals')">
+				<img class="gridIcon" src="/icons/deals.png" alt=""/>
+				<div class="gridText">Deals</div>
+			</div>
+		</div>
+	</div>
+</div>

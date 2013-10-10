@@ -1,0 +1,78 @@
+[
+  {
+    "place_id": 1,
+    "name": "Sinplicity Ice Cream",
+    "address": "6402 Arlington Blvd, Arlington",
+    "reviews": 40,
+    "rating": 4.5,
+    "price": 2,
+    "distance": ".2",
+    "category": "Ice Cream & Frozen Yogurt",
+    "image": "/icons/sinplicity.jpg"
+  },
+  {
+    "place_id": 2,
+    "name": "Goodies Frozen Custard & Treats",
+    "address": "Foggy Bottom",
+    "reviews": 24,
+    "rating": 4,
+    "price": 1,
+    "distance": ".3",
+    "category": "Desserts, Ice Cream & Frozen Yogurt",
+    "image": "/icons/goodies.jpg"
+  },
+  {
+    "place_id": 3,
+    "name": "Captain Cookie and the Milk Man",
+    "address": "Dupont Circle",
+    "reviews": 57,
+    "rating": 4.5,
+    "price": 1,
+    "distance": ".7",
+    "category": "Desserts, Food Stands",
+    "image": "/icons/milkman.jpg"
+  },
+  {
+    "place_id": 4,
+    "name": "Macaron Bee",
+    "address": "1669 Wisconson Ave NW, Georgetown",
+    "reviews": 65,
+    "rating": 5,
+    "price": 2,
+    "distance": "1.4",
+    "category": "Desserts",
+    "image": "/icons/macaron.jpg"
+  },
+  {
+    "place_id": 5,
+    "name": "That Cheesecake Truck",
+    "address": "Washington",
+    "reviews": 20,
+    "rating": 4,
+    "price": 1,
+    "distance": "1.4",
+    "category": "Desserts, FoodStands",
+    "image": "/icons/cheesecake.jpg"
+  }, 
+  {
+    "place_id": 6,
+    "name": "Sweet Bites Mobile",
+    "address": "L'Enfant Plz Washington, DC 20024",
+    "reviews": 66,
+    "rating": 3.5,
+    "price": 1,
+    "distance": "1.4",
+    "category": "Food Stands, Desserts",
+    "image": "/icons/sweetbites.jpg"
+  },
+  {
+    "place_id": 7,
+    "name": "Dangerously Delicious Truck",
+    "address": "1339 H St NE Washington, DC 20002",
+    "reviews": 94,
+    "rating": 3.5,
+    "price": 1,
+    "distance": "2",
+    "category": "Desserts, Food Stands",
+    "image": "/icons/dangerouslydelicious.jpg"
+  }]

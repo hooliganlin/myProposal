@@ -1,0 +1,84 @@
+ <div class="titleBar" ng-controller="TitleBarCtrl">
+    <a class="backButton" hm-tap="goBack()">Back</a>
+    <img src="/icons/yelp_logo_75x38.png" alt="" />
+ </div>
+ <div id="detailsContainer" ng-controller="DetailsCtrl">
+ 	<div class="attributesContainer">
+	 	<div class="main-attributes">
+	        <div class="description-body">
+	          <h3>
+	            <span>{{ place.name }}</span>
+	          </h3>
+	          <div class="rating-container">
+	            <div class="rating" ng-class="getRating(place.rating)"></div>
+	            <span class="reviews left">{{ place.reviews }} reviews</span>
+	          </div>
+	          <div>
+	            <div>{{ place.category }}</div>    
+	          </div>
+	        </div>
+	    </div>
+	    <div class="secondary-attributes">       
+	          <span class="distance">{{ place.distance }} mi</span>
+	          <span class="price">{{ getPrice(place.price) }}</span>
+	    </div>
+	 </div>
+	 <div class="detailsButtonContainer">
+	 	<div class="btn-group">
+		    <button class="btn btn-large">Add Tip</button>
+		    <button class="btn btn-large">Add Photo</button>
+		    <button class="btn btn-large">Check In</button>
+		    <button class="btn btn-large">Bookmark</button>
+		</div>
+	</div>
+	<div class="actionContainer padded-border">
+		<div class="address actionItem no-border">
+			<img src="/icons/marker.png" class="marker" alt="{{ place.address }}" />
+			<span>{{ place.address }}</span>
+		</div>
+	</div>
+	<div class="actionContainer padded-border">
+		<div class="direction actionItem">
+			<img src="/icons/directions.png" alt="Get Directions" />
+			<span>Get Directions</span>
+		</div>
+		<div class="moreInfo actionItem no-border">
+			<h4>More Info</h4>
+			<div> Hours, Website, Attributes, Engagement</div>
+		</div>
+	</div>
+	<div class="reviewHighlights content-padded">
+		<div class="detailHeader">Review Highlights</div>
+		<hr />
+		 <ul class="list-body topcoat-list">
+	      <li class="topcoat-list__item compact" hm-tap="" ng-repeat="review in reviews">
+	        <div class="listing">
+	          <div class="main-attributes compact">
+	            <div class="icon">
+	              <img class="iconImg small" src="{{review.thumbnail}}" />
+	            </div>
+	            <div class="description-body">
+	              <h3 class="lite">
+	                <span>{{ review.name }}</span>
+	              </h3>
+	              <div>
+	                <div>{{ review.comment }}</div> 
+	              </div>
+	            </div>
+	          </div>
+	          <div class="secondary-attributes compact">       
+	              <span class="distance">{{ review.count }} reviews</span>
+	          </div>
+	        </div>
+	      </li>
+	    </ul>
+	</div>
+	<div class="photosContainer content-padded">
+		<div class="detailHeader">Photos</div>
+		<hr />
+		<div class="carousel">
+			<img class="thumbnail" ng-src="{{photo.image}}" ng-repeat="photo in photos | filter:{isThumbnail: true}" hm-tap="showPictures()" />
+		</div>
+	</div>
+
+ </div>

@@ -1,0 +1,17 @@
+<html>
+<head>
+	<link rel="stylesheet" href="/stylesheets/modal.css" />
+</head>
+
+<body>
+	<div class="slideShow" ng-controller="PictureViewerCtrl">
+		<div class="pictureContainer">
+			<div class="picture"  ng-repeat="photo in photos"  ng-animate="'animate'" ng-show="$index == currIndex" hm-swipeleft="nextPicture()" hm-swiperight="prevPicture()">
+				<img class="imgCont" ng-src="{{photo.image}}" ng-class="{'middle' : photo.style == 'middle'}" />
+				<div class="comment" ng-class="{'top': photo.comment.style == 'top', 'middle' : photo.comment.style == 'middle', 'bottom': photo.comment.style == 'bottom', 'top wide': photo.comment.style == 'top wide', 'top compact' : photo.comment.style == 'top compact'}">{{photo.comment.text}}</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
