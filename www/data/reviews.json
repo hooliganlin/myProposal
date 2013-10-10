@@ -3,7 +3,8 @@
 	"name": "Eddie H.",
 	"timestamp": "1 day ago",
 	"comment": "Say YES, Jess!!!",
-	"thumbnail": "/icons/ralph_wiggum.gif",
+	"thumbnail": "/pics/eddie.jpg",
+	"isHighlight": true,
 	"count": 45
 },
 {
@@ -11,14 +12,72 @@
 	"name": "Christina Y.",
 	"timestamp": "1 day ago",
 	"comment": "Say YES to Marriage!!!!",
-	"thumbnail": "/icons/ralph_wiggum.gif",
+	"thumbnail": "/pics/christinay.jpg",
 	"count": 100
 },
 {
 	"id" : 3,
-	"name": "Jeska Y.",
+	"name": "Philip Y.",
 	"timestamp": "1 day ago",
-	"comment": "I love you!!!",
-	"thumbnail": "/icons/ralph_wiggum.gif",
+	"comment": "Say yes to Bryan!!",
+	"thumbnail": "/pics/phil.jpg",
+	"isHighlight": true,
 	"count": 10
+},
+{
+	"id" : 4,
+	"name": "Crystal F.",
+	"timestamp": "3 days ago",
+	"comment": "You're the best Jess! I  miss our times back at ACF!!",
+	"thumbnail": "/pics/crystal.jpg",
+	"count": 12
+},
+{
+	"id" : 5,
+	"name": "Jeska L.",
+	"timestamp": "Just now",
+	"comment": "I love you!!!",
+	"thumbnail": "/pics/jeska.jpg",
+	"isHighlight": true,
+	"count": 101
+},
+{
+	"id" : 6,
+	"name": "Janna L",
+	"timestamp": "24 days ago",
+	"comment": "Jessica, you're a great friend and I know you'll make a great wife.",
+	"thumbnail": "/pics/janna.jpg",
+	"count": 6
+},
+{
+	"id" : 7,
+	"name": "Janice L.",
+	"timestamp": "2 days ago",
+	"comment": "Just say yes, Jess! It's that easy.",
+	"thumbnail": "/pics/janice.jpg",
+	"count": 88
+},
+{
+	"id" : 8,
+	"name": "Binu T.",
+	"timestamp": "8 days ago",
+	"comment": "I miss you Jess! I wish I could be there to celebrate with you guys!",
+	"thumbnail": "/pics/binu.jpg",
+	"count": 69
+},
+{
+	"id" : 9,
+	"name": "Julie W.",
+	"timestamp": "1 day ago",
+	"comment": "OMG!!!! SAY YES JESS!!!!",
+	"thumbnail": "/pics/julie.jpg",
+	"count": 10
+},
+{
+	"id" : 10,
+	"name": "Michelle K.",
+	"timestamp": "6 days ago",
+	"comment": "I miss you roomie!! I can't wait to see you get married!!!",
+	"thumbnail": "/pics/michelle.jpg",
+	"count": 23
 }]

@@ -51,7 +51,7 @@
 		<div class="detailHeader">Review Highlights</div>
 		<hr />
 		 <ul class="list-body topcoat-list">
-	      <li class="topcoat-list__item compact" hm-tap="" ng-repeat="review in reviews">
+	      <li class="topcoat-list__item compact" ng-repeat="review in reviews | filter:{isHighlight: true}">
 	        <div class="listing">
 	          <div class="main-attributes compact">
 	            <div class="icon">
@@ -79,6 +79,34 @@
 		<div class="carousel">
 			<img class="thumbnail" ng-src="{{photo.image}}" ng-repeat="photo in photos | filter:{isThumbnail: true}" hm-tap="showPictures()" />
 		</div>
+	</div>
+	<div class="reviewsContainer content-padded">
+		<div class="detailHeader">Reviews</div>
+		<hr />
+		 <ul class="list-body topcoat-list">
+	      <li class="topcoat-list__item compact" ng-repeat="review in reviews">
+	        <div class="listing">
+	          <div class="main-attributes compact">
+	            <div class="icon">
+	              <img class="iconImg small" src="{{review.thumbnail}}" />
+	            </div>
+	            <div class="description-body">
+	              <h3 class="lite">
+	                <span>{{ review.name }}</span>
+	              </h3>
+	              <div>
+	                <div>{{ review.comment }}</div> 
+	              </div>
+	            </div>
+	          </div>
+	          <div class="secondary-attributes compact">       
+	              <span class="distance">{{ review.count }} reviews</span>
+	          </div>
+	        </div>
+	      </li>
+	    </ul>
+
+
 	</div>
 
  </div>
