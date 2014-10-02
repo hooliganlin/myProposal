@@ -11,7 +11,7 @@
 	"id" : 2,
 	"name": "Christina Y.",
 	"timestamp": "1 day ago",
-	"comment": "Say YES to Marriage!!!!",
+	"comment": "Jess. Say no! If you say yes then that means we can't hang out as much anymore ;) jk. Bryan might censor this comment but all really to say that you're a great friend. I realize as I get older who the quality ones are and you are of the utmost quality. I am only soooooo happy for you and think you 2 together are like chocolate chip cookies and milk, mac and cheesen peanut butter and jelly. You guys belong with each other and make each other better. I love you!!!",
 	"thumbnail": "/pics/christinay.jpg",
 	"count": 100
 },
@@ -19,7 +19,7 @@
 	"id" : 3,
 	"name": "Philip Y.",
 	"timestamp": "1 day ago",
-	"comment": "Say yes to Bryan!!",
+	"comment": "I'm so happy for my little sis! Congrats!",
 	"thumbnail": "/pics/phil.jpg",
 	"isHighlight": true,
 	"count": 10
@@ -38,14 +38,13 @@
 	"timestamp": "Just now",
 	"comment": "I love you!!!",
 	"thumbnail": "/pics/jeska.jpg",
-	"isHighlight": true,
 	"count": 101
 },
 {
 	"id" : 6,
 	"name": "Janna L",
 	"timestamp": "24 days ago",
-	"comment": "Jessica, you're a great friend and I know you'll make a great wife.",
+	"comment": "Whether single or married, both are for sanctification, not satisfaction. Also, I'm taking Bryan's request for this as him asking permission. I say, 'YES!'",
 	"thumbnail": "/pics/janna.jpg",
 	"count": 6
 },
@@ -53,7 +52,7 @@
 	"id" : 7,
 	"name": "Janice L.",
 	"timestamp": "2 days ago",
-	"comment": "Just say yes, Jess! It's that easy.",
+	"comment": "5 stars. Seriously. 5 stars for Bryan Lin! He's a great catch. You can definitely go biking all the time with him now, right after he grades all your papers! (Aren't you so excited!?!?!) Seriously though, 5 stars for this guy. (You should be intrigued by now, Ms. Yen Yelp Elite Superstar!) I'm seriously so excited for you two and the future you'll have together! The last two years have been a joy for me as a friend to hear about your life and all its many developments (and especially the teacher frustrations), even though we don't see each other very often anymore. I was just thinking the other day about how I admire and appreciate you and your friendship. As a new chapter of your life begins, I am truly looking forward to getting the inside scoop into all of your endeavors, adventures, and plans! You love and are loved.  Here's to you and Bryan--Huzzah!",
 	"thumbnail": "/pics/janice.jpg",
 	"count": 88
 },
@@ -77,7 +76,16 @@
 	"id" : 10,
 	"name": "Michelle K.",
 	"timestamp": "6 days ago",
-	"comment": "I miss you roomie!! I can't wait to see you get married!!!",
+	"comment": "O.M.G. If you don't say yes I might die hehe. I'm SOOO super excited for both of you - Bryan is amazing and you're amazing so it's pretty much perfect. I love you so much and I'm ridiculously happy my heart is gonna explode (as I'm sure yours has too)  *muah* I'm buying you buckets of Razzles in celebration ",
 	"thumbnail": "/pics/michelle.jpg",
 	"count": 23
+},
+{
+	"id" : 11,
+	"name": "Alice Y.",
+	"timestamp": "1 day ago",
+	"comment": "Yay Jess! I'm looking forward to the big day!",
+	"thumbnail": "/pics/alice.jpg",
+	"isHighlight": true,
+	"count": 54
 }]
